@@ -48,7 +48,7 @@ for single_date in daterange(start_date, end_date):
     all_dates.append(single_date.strftime("%Y-%m-%d"))
 
 
-for unit in units():
+for unit in units:
     fin = open(f"{unit} {start_year}-{start_month}-{start_day}.txt", "a+")
 
     for j in range(len(all_dates)):
