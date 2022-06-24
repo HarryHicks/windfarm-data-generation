@@ -6,7 +6,7 @@ end_year = 2022
 end_month = 1
 end_day = 1
 
-unit = ["LARYO-1", "LNCSO-1"] # NGC BM Unit ID
+units = ["LARYO-2", "LNCSO-2"] # NGC BM Unit ID
 
 
 
@@ -28,7 +28,7 @@ import email
 from email.mime.text import MIMEText
 
 
-apikey = "" # apikey
+apikey = "e7dnu62uyibzbyb" # apikey
 servicetype = "CSV" # CSV / XML
 
 all_dates = []
